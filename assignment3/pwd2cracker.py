@@ -1,3 +1,6 @@
+# Use Hashcat instead
+# hashcat -m 100 -a 3 <HASH> "<SALT>?a?a?a?a?a?a"
+
 import sys, time, datetime
 from Crypto.Hash import SHA
 
