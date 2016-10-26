@@ -16,6 +16,7 @@ def main(input):
             print 'Hash matched'
             print 'PIN:', pin
             print 'Time Elapsed:', te-ts
+            return
 
 if __name__ == '__main__':
     main(sys.argv[1])
