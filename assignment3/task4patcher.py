@@ -2,7 +2,6 @@ import sys, time, datetime
 from Crypto.Hash import SHA
 
 OFFSET = 0x0001e018
-#OFFSET = 0x9
 
 def main(filename):
     fh = open(filename, 'r+b')
